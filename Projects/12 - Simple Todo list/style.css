@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+form {
+    width: 35vw;
+    text-align: center;
+    margin: 200px auto;
+}
+
+form input,
+form #add,
+form .task,
+form .task button {
+    padding: .5rem;
+    outline: 0;
+    border: 0;
+    font-size: 2rem;
+}
+
+form #add {
+    margin-left: -4px;
+    padding: .5rem 1rem;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color .5s, color .5s;
+}
+
+form #add:hover {
+    color: white;
+    background-color: #FF6F47;
+}
+
+form .task {
+    background-color: white;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form .task button:first-of-type {
+    color: white;
+    cursor: pointer;
+    background-color: #0BD4A2;
+    margin-right: 1rem;
+}
+
+form .task button:last-of-type {
+    color: white;
+    cursor: pointer;
+    background-color: #FF6F47;
+}
