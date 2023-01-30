@@ -23,6 +23,13 @@ const projectsList = [
   "Geolocation",
   "Follow Along Link Highlighter",
   "Speech Synthesis",
+  "Sticky Nav",
+  "Calculate textarea characters",
+  "Stripe Follow Along Nav",
+  "Click and Drag",
+  "Video Speed Controller",
+  "Countdown Timer",
+  "Whack A Mole",
 ];
 
 projectsBox.innerHTML = `${projectsList
